@@ -1,0 +1,14 @@
+{
+  "name": "strata",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cross-Service, RPC & Microservice Topology Tracer",
+  "main": "lib/strata.js",
+  "bin": {
+    "strata": "lib/strata.js"
+  },
+  "scripts": {
+    "start": "node lib/strata.js"
+  },
+  "license": "MIT"
+}
