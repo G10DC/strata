@@ -35,3 +35,13 @@ Generates `strata-topology.md` containing:
 * Microservice Call Graph Diagram (Mermaid)
 * Endpoints & RPC Contract Matrix
 * Breaking Change & Compatibility Verdict
+
+
+---
+
+## ⚡ Spark Breakthrough Enhancement
+
+- **Feature**: **Breaking RPC Contract Sentinel**
+- **Description**: Detects breaking Protobuf / GraphQL schema changes across microservices.
+- **Synergy**: Integrated with `anchor` (API specs) & `atlas` (monorepo).
+- **Framework**: Applied via the `spark` 4-Lens Lateral Ideation Engine.
