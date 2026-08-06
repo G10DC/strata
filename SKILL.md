@@ -9,16 +9,16 @@ description: >-
   service mesh monitoring.
 ---
 
-# 🕸️ Strata
+# ️ Strata
 
 **Cross-Service, RPC & Microservice Topology Tracer.** Strata maps communication topologies across distributed microservices by statically analyzing interface definition files (IDLs) and API contracts without running the live infrastructure.
 
-## 🎯 Golden Rules
+## Golden Rules
 1. **Static contract extraction**: Parse `.proto`, `openapi.yaml`, `schema.graphql`, and HTTP client call-sites directly from source.
 2. **Detect breaking RPC changes**: Compare protobuf field IDs, wire types, and endpoint signatures across service repositories.
 3. **Map network call-graphs**: Construct directed adjacency graphs representing inter-service RPC / HTTP requests and message topic pub/sub.
 
-## 🏗️ Architecture & Pipeline
+## ️ Architecture & Pipeline
 
 ```mermaid
 graph TD
@@ -29,7 +29,7 @@ graph TD
     E --> F[Verify RPC Breaking Changes & Emit Spec]
 ```
 
-## 🚀 Usage Guide
+## Usage Guide
 
 ### 1. Run Microservice Topology Extraction
 ```bash
@@ -45,9 +45,19 @@ Generates `strata-topology.md` containing:
 
 ---
 
-## ⚡ Spark Breakthrough Enhancement
+## Spark Breakthrough Enhancement
 
 - **Feature**: **Breaking RPC Contract Sentinel**
 - **Description**: Detects breaking Protobuf / GraphQL schema changes across microservices.
 - **Synergy**: Integrated with `anchor` (API specs) & `atlas` (monorepo).
 - **Framework**: Applied via the `spark` 4-Lens Lateral Ideation Engine.
+
+
+## When to use
+
+- Primary domain workflow execution as specified in frontmatter description.
+
+
+## When NOT to use
+
+- Tasks outside declared skill scope or handled by specialized sibling skills.
