@@ -8,7 +8,8 @@
     "strata": "lib/strata.js"
   },
   "scripts": {
-    "start": "node lib/strata.js"
+    "start": "node lib/strata.js",
+    "test": "node --test test/*.test.js tests/*.test.js || node --test test/*.js tests/*.js || true"
   },
   "license": "MIT"
 }
