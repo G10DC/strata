@@ -27,7 +27,7 @@ graph TD
 
 ### 1. Run Microservice Topology Extraction
 ```bash
-node C:/Users/GdC/.gemini/config/skills/strata/lib/strata.js --dir "./services"
+node lib/strata.js --dir "./services"
 ```
 
 ### 2. Output
