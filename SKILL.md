@@ -1,6 +1,12 @@
 ---
 name: strata
-description: Cross-Service, RPC & Microservice Topology Tracer for multi-GB codebases. Statically parses gRPC Protobuf definitions, OpenAPI schemas, and GraphQL IDLs to trace inter-service communication and detect breaking RPC contract changes. Inspired by Buf and Kiali.
+description: >-
+  Cross-service RPC and microservice topology tracer. Statically parses gRPC
+  Protobuf definitions, OpenAPI schemas, and GraphQL IDLs to trace inter-service
+  communication and detect breaking RPC contract changes. Use when validating
+  API contract compatibility across microservices before deployment. Never use
+  for generating API boilerplate -- use anchor instead; never use for runtime
+  service mesh monitoring.
 ---
 
 # 🕸️ Strata
