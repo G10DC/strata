@@ -3,3 +3,7 @@ node_modules/
 *.log
 strata-topology.md
 .DS_Store
+
+# Enforced by G10DC Pruning
+.ast-cache.json
+.env
